@@ -1,5 +1,5 @@
 import React from "react";
-import ACI_logo from "../assets/images/ACI_logo.svg";
+import ACI_logo from "../../public/assets/images/ACI_logo.svg";
 
 const Header: React.FC = () => {
   return (
@@ -19,9 +19,7 @@ const Header: React.FC = () => {
               FAQs
             </li>
             <li>
-              <div className="divide-y divide-dashed">
-
-              </div>
+              <div className="divide-y divide-dashed"></div>
             </li>
             <li className="hover:text-[#13a48e] transition-colors ease-in-out duration-400">
               (876) 932-2235
@@ -29,9 +27,7 @@ const Header: React.FC = () => {
 
             <li>Solutions</li>
             <li>
-              <button
-                className="cursor-pointer text-[#fff] align-middle py-2 px-6 rounded-md bg-[#13a48e]"
-              >
+              <button className="cursor-pointer text-[#fff] align-middle py-2 px-6 rounded-md bg-[#13a48e]">
                 Contact Us
               </button>
             </li>
