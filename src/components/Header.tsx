@@ -10,7 +10,7 @@ const Header: React.FC = () => {
           <ul className="flex max-w-4xl w-full items-center justify-evenly text-lg font-semibold">
             <li>Solutions</li>
             <li className="hover:text-[#13a48e] transition-colors ease-in-out duration-400">
-              About Us
+              <a href="/About"> About Us</a>
             </li>
             <li className="hover:text-[#13a48e] transition-colors ease-in-out duration-400">
               Careers

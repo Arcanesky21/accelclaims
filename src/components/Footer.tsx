@@ -3,7 +3,7 @@ import ACI_logo from "../../public/assets/images/ACI_logo.svg";
 
 const Footer: React.FC = () => {
   return (
-    <footer>
+    <footer className="mt-10 bg-white">
       <div className="flex max-w-[90rem] w-full m-auto justify-between items-center">
         <div className="grid w-full p-5 grid-cols-5 space-x-6 text-[#696969] font-semibold space-y-2 items-start content-center justify-between ">
           <div className="flex flex-col space-y-4 ">
