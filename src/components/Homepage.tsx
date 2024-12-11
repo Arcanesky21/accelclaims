@@ -18,7 +18,8 @@ const Homepage: React.FC = () => {
           </p>
         </div>
       </div>
-    </section><section className="max-w-[70rem] w-full m-auto ">
+    </section>
+    <section className="max-w-[70rem] w-full m-auto ">
         <div className="flex justify-center flex-col mt-16">
           <div className="flex justify-center mt-14 mb-8">
             <h1 className="text-[2.5rem] font-bold items-center">
