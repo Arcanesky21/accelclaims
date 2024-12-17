@@ -9,6 +9,7 @@ export default {
       backgroundImage: {
         hero: `linear-gradient(142deg, rgba(12, 12, 12, 0.63) 24%, rgba(12, 12, 12, 0) 77%), url('/assets/images/aci_hero_4.jpg')`,
         about: `linear-gradient(142deg, rgba(12, 12, 12, 0.49) 0%, rgba(12, 12, 12, 0) 94%), url(https://accelclaims.com/wp-content/uploads/2019/07/about_hero.jpg) !important;`,
+        aboutBg: `linear-gradient(90deg,#ffffff 30%,rgba(255,255,255,0) 66%),url(https://accelclaims.com/wp-content/uploads/2019/07/shutterstock_317554604-e1563894515993.jpg)!important`
       },
       fontFamily: {
         sans: ["Poppins", "sans-serif"], // Set Poppins as default sans font

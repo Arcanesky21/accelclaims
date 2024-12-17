@@ -70,6 +70,62 @@ const About: React.FC = () => {
           </div>
         </div>
       </section>
+      <section className="bg-aboutBg h-[48rem] bg-cover bg-center w-screen">
+        <div className="flex max-w-[70rem] w-full justify-evenly gap-10 items-center">
+          <div className="max-w-[24rem] flex flex-col space-y-6">
+            <h1>svg here</h1>
+            <h1>We Believe in Great Relationships</h1>
+            <p>
+              We believe that a great relationship is one of the most important
+              components of our business. Building relationships with all
+              parties involved significantly increases our ability to manage
+              accounts more effectively and with greater efficiency. By
+              leveraging these relationships, our client hospitals will be able
+              to realize maximum reimbursement on these specific types of
+              accounts.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="m-auto h-[50rem] flex justify-center bg-[#f7f7f7]">
+        <div className="flex max-w-[70rem] w-full justify-evenly gap-10 items-center">
+          <div className="mb-8">
+            <img
+              src="https://accelclaims.com/wp-content/uploads/2019/07/about_relationships.jpg"
+              className="h-[35rem] rounded-lg"
+              alt=""
+            />
+          </div>
+          <div className="max-w-[24rem] flex flex-col space-y-6">
+            <h1>svg here</h1>
+            <h1>We Believe in Great Relationships</h1>
+            <p>
+              We believe that a great relationship is one of the most important
+              components of our business. Building relationships with all
+              parties involved significantly increases our ability to manage
+              accounts more effectively and with greater efficiency. By
+              leveraging these relationships, our client hospitals will be able
+              to realize maximum reimbursement on these specific types of
+              accounts.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="w-full border border-t-transparent bg-white p-5">
+        <div className="flex max-w-[70rem] m-auto space-y-10 flex-col mt-10">
+          <h1 className="font-bold text-[2.5rem] text-center">
+            Complex Claim Technology
+          </h1>
+          <p className=" text-[#333] text-[1.3rem] ">
+            ACI utilizes the best technology in the industry to optimize claims
+            identification and processing that results in quicker, better
+            financial outcomes for providers.
+          </p>
+          <button className="text-white border font-bold text-lg rounded-lg bg-[#a60014] p-4 w-[20rem] m-auto">
+            Get Free Assessment
+          </button>
+        </div>
+      </section>
     </>
   );
 };
