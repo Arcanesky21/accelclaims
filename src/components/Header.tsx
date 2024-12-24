@@ -16,7 +16,7 @@ const Header: React.FC = () => {
               Careers
             </li>
             <li className="hover:text-[#13a48e] transition-colors ease-in-out duration-400">
-              FAQs
+              <a href="/Faq"> FAQs</a>
             </li>
             <li>
               <div className="divide-y divide-dashed"></div>

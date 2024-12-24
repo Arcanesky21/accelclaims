@@ -91,7 +91,7 @@ const About: React.FC = () => {
         <div className="flex max-w-[70rem] w-full justify-evenly gap-10 items-center">
           <div className="mb-8">
             <img
-              src="https://accelclaims.com/wp-content/uploads/2019/07/about_relationships.jpg"
+              src="https://accelclaims.com/wp-content/uploads/2019/07/about_communication-1.jpg"
               className="h-[35rem] rounded-lg"
               alt=""
             />
@@ -111,18 +111,17 @@ const About: React.FC = () => {
           </div>
         </div>
       </section>
-      <section className="w-full border border-t-transparent bg-white p-5">
-        <div className="flex max-w-[70rem] m-auto space-y-10 flex-col mt-10">
-          <h1 className="font-bold text-[2.5rem] text-center">
-            Complex Claim Technology
+      <section className="w-full h-[20rem] border border-t-transparent bg-white p-5">
+        <div className="flex h-full max-w-[70rem] m-auto items-center ">
+          <div className="flex m-auto flex-col">
+          <h1>
+          Ready to Accelerate Your Claims?
           </h1>
-          <p className=" text-[#333] text-[1.3rem] ">
-            ACI utilizes the best technology in the industry to optimize claims
-            identification and processing that results in quicker, better
-            financial outcomes for providers.
+          <p>Get Started with ACI Today
           </p>
-          <button className="text-white border font-bold text-lg rounded-lg bg-[#a60014] p-4 w-[20rem] m-auto">
-            Get Free Assessment
+          </div>
+          <button className="text-white border font-bold text-lg rounded-lg bg-[#13a48e] p-4 w-[20rem] ">
+            Contact Us
           </button>
         </div>
       </section>
