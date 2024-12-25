@@ -94,7 +94,7 @@ const FAQs: React.FC = () => {
         </div>
       </section>
       <section className="w-full h-[25rem] border border-t-transparent bg-white p-5">
-        <div className="flex h-full max-w-[70rem] m-auto items-center ">
+        <div className="flex h-full max-w-[75rem] m-auto items-center ">
           <div className="flex m-auto flex-col">
             <h1>Ready to Accelerate Your Claims?</h1>
             <p>Get Started with ACI Today</p>
