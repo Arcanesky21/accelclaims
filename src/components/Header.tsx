@@ -4,7 +4,7 @@ import ACI_logo from "../../public/assets/images/ACI_logo.svg";
 const Header: React.FC = () => {
   return (
     <header>
-      <nav className="p-5">
+      <nav className="p-5 fixed top-0 z-50 w-full bg-white shadow-md">
         <div className="max-w-[90rem] w-full m-auto flex items-center justify-between">
           <img src={ACI_logo.src} className="w-[16rem]" alt="logo" />
           <ul className="flex max-w-4xl w-full items-center justify-evenly text-lg font-semibold">
@@ -50,13 +50,13 @@ const Header: React.FC = () => {
                     </a>
                     <a
                       className="flex hover:text-[#13a48e] items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 "
-                      href="#"
+                      href="/Worker"
                     >
                       Workers’ Compensation
                     </a>
                     <a
                       className="flex hover:text-[#13a48e] items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 "
-                      href="#"
+                      href="/Other"
                     >
                       Other Services
                     </a>
